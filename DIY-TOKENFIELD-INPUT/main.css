@@ -1,0 +1,43 @@
+
+.tag-container {
+    overflow: auto;
+    border: 1px solid #ced4da;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.tag-container .tag {
+    cursor: default;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    margin: 0px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    /* #3d4351 */
+    background: #7396c4;
+    /* background: #83abdf; */
+    color: #fff;
+}
+
+.tag i {
+    color: #5d799e;
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.tag i:hover {
+    color: #395272;
+    /* color: #ced4da; */
+}
+
+.tag-container input {
+    flex: 1;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    border: 0;
+}
