@@ -31,9 +31,9 @@ function createNotification(message = null, type = null) {
         notif.classList.add('remove')
     }, 2500)
 
-    setTimeout(() => {
+    notif.addEventListener('transitionend', () => {
         notif.remove()
-    }, 3000)
+    })
 }
 
 function getRandomMessage() {
